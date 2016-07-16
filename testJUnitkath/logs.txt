@@ -1,0 +1,761 @@
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+}
+1468530409873	DeferredSave.extensions.json	DEBUG	Save changes
+1468530409873	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1468530409873	addons.xpi-utils	DEBUG	Updating add-on states
+1468530409874	addons.xpi-utils	DEBUG	Writing add-ons list
+1468530409877	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1468530409877	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1468530409877	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1468530409878	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1468530409878	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1468530409879	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1468530409890	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1468530409891	addons.xpi	DEBUG	Calling bootstrap method startup on {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} version 8.3.0.9150
+1468530409893	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1468530409893	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1468530409893	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1468530409893	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1468530409893	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1468530409893	addons.manager	DEBUG	Starting provider: GMPProvider
+1468530409898	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1468530409898	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1468530409898	addons.manager	DEBUG	Starting provider: PluginProvider
+1468530409898	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1468530409898	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1468530409898	addons.manager	DEBUG	Completed startup sequence
+1468530410098	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1468530410098	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1468530410098	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1468530410100	DeferredSave.extensions.json	DEBUG	Starting write
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/environment.js, line 15: Proxy.create and Proxy.createFunction are deprecated, use new Proxy instead
+1468530410313	addons.repository	DEBUG	No addons.json found.
+1468530410313	DeferredSave.addons.json	DEBUG	Save changes
+1468530410314	DeferredSave.addons.json	DEBUG	Starting timer
+1468530410349	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1468530410349	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1468530410349	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1468530410351	DeferredSave.extensions.json	DEBUG	Write succeeded
+1468530410351	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1468530410367	DeferredSave.addons.json	DEBUG	Starting write
+1468530410391	DeferredSave.addons.json	DEBUG	Write succeeded
+JavaScript error: chrome://fxdriver/content/server.js, line 61: uncaught exception: [object Object]
+JavaScript error: chrome://fxdriver/content/server.js, line 61: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
+console.error: 
+  Could not write session state file 
+  Message: Win error 32 during operation move on file C:\Users\KATHLE~1\AppData\Local\Temp\anonymous6217411651411139850webdriver-profile\sessionstore-backups\recovery.js.tmp (The process cannot access the file because it is being used by another process.
+
+)
+  
+
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'CEB-DT9875', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at automationFramework.SimpleTest.test(SimpleTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+}
+1468530409873	DeferredSave.extensions.json	DEBUG	Save changes
+1468530409873	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1468530409873	addons.xpi-utils	DEBUG	Updating add-on states
+1468530409874	addons.xpi-utils	DEBUG	Writing add-ons list
+1468530409877	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1468530409877	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1468530409877	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1468530409878	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1468530409878	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1468530409879	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1468530409890	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1468530409891	addons.xpi	DEBUG	Calling bootstrap method startup on {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} version 8.3.0.9150
+1468530409893	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1468530409893	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1468530409893	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1468530409893	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1468530409893	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1468530409893	addons.manager	DEBUG	Starting provider: GMPProvider
+1468530409898	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1468530409898	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1468530409898	addons.manager	DEBUG	Starting provider: PluginProvider
+1468530409898	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1468530409898	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1468530409898	addons.manager	DEBUG	Completed startup sequence
+1468530410098	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1468530410098	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1468530410098	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1468530410100	DeferredSave.extensions.json	DEBUG	Starting write
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/environment.js, line 15: Proxy.create and Proxy.createFunction are deprecated, use new Proxy instead
+1468530410313	addons.repository	DEBUG	No addons.json found.
+1468530410313	DeferredSave.addons.json	DEBUG	Save changes
+1468530410314	DeferredSave.addons.json	DEBUG	Starting timer
+1468530410349	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1468530410349	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1468530410349	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1468530410351	DeferredSave.extensions.json	DEBUG	Write succeeded
+1468530410351	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1468530410367	DeferredSave.addons.json	DEBUG	Starting write
+1468530410391	DeferredSave.addons.json	DEBUG	Write succeeded
+JavaScript error: chrome://fxdriver/content/server.js, line 61: uncaught exception: [object Object]
+JavaScript error: chrome://fxdriver/content/server.js, line 61: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
+console.error: 
+  Could not write session state file 
+  Message: Win error 32 during operation move on file C:\Users\KATHLE~1\AppData\Local\Temp\anonymous6217411651411139850webdriver-profile\sessionstore-backups\recovery.js.tmp (The process cannot access the file because it is being used by another process.
+
+)
+  
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	... 26 more
+
+
+
+
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+lse,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"47.0.1","maxVersion":"47.0.1"}],"targetPlatforms":[],"seen":true}
+1468530484061	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1468530484062	DeferredSave.extensions.json	DEBUG	Save changes
+1468530484062	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1468530484062	addons.xpi-utils	DEBUG	Updating add-on states
+1468530484062	addons.xpi-utils	DEBUG	Writing add-ons list
+1468530484065	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1468530484066	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1468530484066	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1468530484066	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1468530484067	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1468530484067	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1468530484078	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1468530484079	addons.xpi	DEBUG	Calling bootstrap method startup on {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} version 8.3.0.9150
+1468530484081	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1468530484081	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1468530484081	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1468530484081	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1468530484081	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1468530484081	addons.manager	DEBUG	Starting provider: GMPProvider
+1468530484085	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1468530484085	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1468530484085	addons.manager	DEBUG	Starting provider: PluginProvider
+1468530484086	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1468530484086	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1468530484086	addons.manager	DEBUG	Completed startup sequence
+1468530484287	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1468530484287	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1468530484287	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1468530484288	DeferredSave.extensions.json	DEBUG	Starting write
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/environment.js, line 15: Proxy.create and Proxy.createFunction are deprecated, use new Proxy instead
+1468530484493	addons.repository	DEBUG	No addons.json found.
+1468530484493	DeferredSave.addons.json	DEBUG	Save changes
+1468530484495	DeferredSave.addons.json	DEBUG	Starting timer
+1468530484529	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1468530484529	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1468530484529	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1468530484531	DeferredSave.extensions.json	DEBUG	Write succeeded
+1468530484531	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1468530484550	DeferredSave.addons.json	DEBUG	Starting write
+1468530484573	DeferredSave.addons.json	DEBUG	Write succeeded
+JavaScript error: chrome://fxdriver/content/server.js, line 61: uncaught exception: [object Object]
+JavaScript error: chrome://fxdriver/content/server.js, line 61: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
+
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'CEB-DT9875', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at automationFramework.SimpleTest.test(SimpleTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+lse,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"47.0.1","maxVersion":"47.0.1"}],"targetPlatforms":[],"seen":true}
+1468530484061	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1468530484062	DeferredSave.extensions.json	DEBUG	Save changes
+1468530484062	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1468530484062	addons.xpi-utils	DEBUG	Updating add-on states
+1468530484062	addons.xpi-utils	DEBUG	Writing add-ons list
+1468530484065	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1468530484066	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1468530484066	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1468530484066	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1468530484067	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1468530484067	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1468530484078	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1468530484079	addons.xpi	DEBUG	Calling bootstrap method startup on {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} version 8.3.0.9150
+1468530484081	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1468530484081	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1468530484081	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1468530484081	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1468530484081	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1468530484081	addons.manager	DEBUG	Starting provider: GMPProvider
+1468530484085	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1468530484085	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1468530484085	addons.manager	DEBUG	Starting provider: PluginProvider
+1468530484086	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1468530484086	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1468530484086	addons.manager	DEBUG	Completed startup sequence
+1468530484287	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1468530484287	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1468530484287	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1468530484288	DeferredSave.extensions.json	DEBUG	Starting write
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/environment.js, line 15: Proxy.create and Proxy.createFunction are deprecated, use new Proxy instead
+1468530484493	addons.repository	DEBUG	No addons.json found.
+1468530484493	DeferredSave.addons.json	DEBUG	Save changes
+1468530484495	DeferredSave.addons.json	DEBUG	Starting timer
+1468530484529	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1468530484529	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1468530484529	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1468530484531	DeferredSave.extensions.json	DEBUG	Write succeeded
+1468530484531	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1468530484550	DeferredSave.addons.json	DEBUG	Starting write
+1468530484573	DeferredSave.addons.json	DEBUG	Write succeeded
+JavaScript error: chrome://fxdriver/content/server.js, line 61: uncaught exception: [object Object]
+JavaScript error: chrome://fxdriver/content/server.js, line 61: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	... 26 more
+
+java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Unable to find executable for: taskkill
+	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:142)
+	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:247)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$2(UnixProcess.java:246)
+	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:125)
+	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:155)
+	at org.openqa.selenium.firefox.FirefoxBinary.quit(FirefoxBinary.java:246)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.quit(NewProfileExtensionConnection.java:194)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.quit(FirefoxDriver.java:364)
+	at org.openqa.selenium.firefox.FirefoxDriver.stopClient(FirefoxDriver.java:310)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:529)
+	at automationFramework.SimpleTest.tearDown(SimpleTest.java:54)
+	at junit.framework.TestCase.runBare(TestCase.java:146)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: java.lang.NullPointerException: Unable to find executable for: taskkill
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:251)
+	at org.openqa.selenium.os.UnixProcess.<init>(UnixProcess.java:62)
+	at org.openqa.selenium.os.CommandLine.<init>(CommandLine.java:38)
+	at org.openqa.selenium.os.WindowsUtils.killPID(WindowsUtils.java:178)
+	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:138)
+	... 25 more
+
+
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+to installed add-ons
+1468537684163	addons.xpi-utils	DEBUG	Updating add-on states
+1468537684163	addons.xpi-utils	DEBUG	Writing add-ons list
+1468537684166	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1468537684166	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1468537684166	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1468537684167	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1468537684167	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1468537684168	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1468537684180	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1468537684180	addons.xpi	DEBUG	Calling bootstrap method startup on {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} version 8.3.0.9150
+1468537684182	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1468537684182	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1468537684182	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1468537684182	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1468537684183	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1468537684183	addons.manager	DEBUG	Starting provider: GMPProvider
+1468537684187	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1468537684187	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1468537684187	addons.manager	DEBUG	Starting provider: PluginProvider
+1468537684187	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1468537684187	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1468537684187	addons.manager	DEBUG	Completed startup sequence
+1468537684391	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1468537684391	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1468537684391	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1468537684392	DeferredSave.extensions.json	DEBUG	Starting write
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/environment.js, line 15: Proxy.create and Proxy.createFunction are deprecated, use new Proxy instead
+1468537684627	addons.repository	DEBUG	No addons.json found.
+1468537684627	DeferredSave.addons.json	DEBUG	Save changes
+1468537684629	DeferredSave.addons.json	DEBUG	Starting timer
+1468537684664	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1468537684664	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1468537684664	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1468537684666	DeferredSave.extensions.json	DEBUG	Write succeeded
+1468537684666	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1468537684681	DeferredSave.addons.json	DEBUG	Starting write
+1468537684688	DeferredSave.addons.json	DEBUG	Write succeeded
+JavaScript error: file:///C:/Users/KATHLE~1/AppData/Local/Temp/anonymous4253146296105612127webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 12508: uncaught exception: [object Object]
+JavaScript error: file:///C:/Users/KATHLE~1/AppData/Local/Temp/anonymous4253146296105612127webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 12508: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://fxdriver/content/server.js, line 61: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
+
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'CEB-DT9875', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at automationFramework.SimpleTest.setUp(SimpleTest.java:28)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+to installed add-ons
+1468537684163	addons.xpi-utils	DEBUG	Updating add-on states
+1468537684163	addons.xpi-utils	DEBUG	Writing add-ons list
+1468537684166	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1468537684166	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1468537684166	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1468537684167	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1468537684167	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1468537684168	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1468537684180	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1468537684180	addons.xpi	DEBUG	Calling bootstrap method startup on {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} version 8.3.0.9150
+1468537684182	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1468537684182	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1468537684182	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1468537684182	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1468537684183	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1468537684183	addons.manager	DEBUG	Starting provider: GMPProvider
+1468537684187	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1468537684187	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1468537684187	addons.manager	DEBUG	Starting provider: PluginProvider
+1468537684187	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1468537684187	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1468537684187	addons.manager	DEBUG	Completed startup sequence
+1468537684391	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1468537684391	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1468537684391	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1468537684392	DeferredSave.extensions.json	DEBUG	Starting write
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/environment.js, line 15: Proxy.create and Proxy.createFunction are deprecated, use new Proxy instead
+1468537684627	addons.repository	DEBUG	No addons.json found.
+1468537684627	DeferredSave.addons.json	DEBUG	Save changes
+1468537684629	DeferredSave.addons.json	DEBUG	Starting timer
+1468537684664	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1468537684664	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1468537684664	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1468537684666	DeferredSave.extensions.json	DEBUG	Write succeeded
+1468537684666	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1468537684681	DeferredSave.addons.json	DEBUG	Starting write
+1468537684688	DeferredSave.addons.json	DEBUG	Write succeeded
+JavaScript error: file:///C:/Users/KATHLE~1/AppData/Local/Temp/anonymous4253146296105612127webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 12508: uncaught exception: [object Object]
+JavaScript error: file:///C:/Users/KATHLE~1/AppData/Local/Temp/anonymous4253146296105612127webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 12508: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://fxdriver/content/server.js, line 61: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	... 21 more
+
+junit.framework.ComparisonFailure: expected:<$3.249[]> but was:<$3.249[ billion]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:269)
+	at automationFramework.SimpleTest.test(SimpleTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+
+junit.framework.ComparisonFailure: expected:<$3.249[[ billion]]> but was:<$3.249[ billion]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:269)
+	at automationFramework.SimpleTest.test(SimpleTest.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+
+org.openqa.selenium.WebDriverException: Element is not clickable at point (970.5, 9.5). Other element would receive the click: <div style="display: block;" id="wb_banner"></div>
+Command duration or timeout: 101 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'CEB-DT9875', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 74e120e9-5673-41ab-a4a1-44f8b285c2ac
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at automationFramework.SimpleTest.test(SimpleTest.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+org.openqa.selenium.WebDriverException: Element is not clickable at point (970.5, 9.5). Other element would receive the click: <div style="display: block;" id="wb_banner"></div>
+Command duration or timeout: 101 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'CEB-DT9875', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c2251583-282d-4ff4-9314-2110b198e553
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at automationFramework.SimpleTest.test(SimpleTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+junit.framework.ComparisonFailure: expected:<[70,470]> but was:<[$3.249 billion]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:269)
+	at automationFramework.SimpleTest.test(SimpleTest.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+org.openqa.selenium.WebDriverException: Element is not clickable at point (970.5, 9.5). Other element would receive the click: <div style="display: block;" id="wb_banner"></div>
+Command duration or timeout: 101 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'CEB-DT9875', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ce07e7df-bc56-44be-a7ca-e4b183f3cb6a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at automationFramework.SimpleTest.test(SimpleTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+lse,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"47.0.1","maxVersion":"47.0.1"}],"targetPlatforms":[],"seen":true}
+1468545109955	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1468545109956	DeferredSave.extensions.json	DEBUG	Save changes
+1468545109956	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1468545109956	addons.xpi-utils	DEBUG	Updating add-on states
+1468545109957	addons.xpi-utils	DEBUG	Writing add-ons list
+1468545109959	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1468545109960	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1468545109960	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1468545109960	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1468545109961	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1468545109961	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1468545109973	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1468545109973	addons.xpi	DEBUG	Calling bootstrap method startup on {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} version 8.3.0.9150
+1468545109975	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1468545109976	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1468545109976	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1468545109976	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1468545109976	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1468545109976	addons.manager	DEBUG	Starting provider: GMPProvider
+1468545109980	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1468545109980	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1468545109980	addons.manager	DEBUG	Starting provider: PluginProvider
+1468545109980	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1468545109980	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1468545109980	addons.manager	DEBUG	Completed startup sequence
+1468545110182	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1468545110182	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1468545110183	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1468545110183	DeferredSave.extensions.json	DEBUG	Starting write
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/environment.js, line 15: Proxy.create and Proxy.createFunction are deprecated, use new Proxy instead
+1468545110398	addons.repository	DEBUG	No addons.json found.
+1468545110399	DeferredSave.addons.json	DEBUG	Save changes
+1468545110400	DeferredSave.addons.json	DEBUG	Starting timer
+1468545110436	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1468545110437	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1468545110437	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1468545110439	DeferredSave.extensions.json	DEBUG	Write succeeded
+1468545110439	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1468545110457	DeferredSave.addons.json	DEBUG	Starting write
+1468545110477	DeferredSave.addons.json	DEBUG	Write succeeded
+JavaScript error: chrome://fxdriver/content/server.js, line 61: uncaught exception: [object Object]
+JavaScript error: chrome://fxdriver/content/server.js, line 61: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
+
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'CEB-DT9875', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at automationFramework.SimpleTest.setUp(SimpleTest.java:30)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+lse,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"47.0.1","maxVersion":"47.0.1"}],"targetPlatforms":[],"seen":true}
+1468545109955	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1468545109956	DeferredSave.extensions.json	DEBUG	Save changes
+1468545109956	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1468545109956	addons.xpi-utils	DEBUG	Updating add-on states
+1468545109957	addons.xpi-utils	DEBUG	Writing add-ons list
+1468545109959	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1468545109960	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1468545109960	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1468545109960	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1468545109961	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1468545109961	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1468545109973	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1468545109973	addons.xpi	DEBUG	Calling bootstrap method startup on {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} version 8.3.0.9150
+1468545109975	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1468545109976	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1468545109976	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1468545109976	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1468545109976	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1468545109976	addons.manager	DEBUG	Starting provider: GMPProvider
+1468545109980	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1468545109980	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1468545109980	addons.manager	DEBUG	Starting provider: PluginProvider
+1468545109980	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1468545109980	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1468545109980	addons.manager	DEBUG	Completed startup sequence
+1468545110182	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1468545110182	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1468545110183	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1468545110183	DeferredSave.extensions.json	DEBUG	Starting write
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/environment.js, line 15: Proxy.create and Proxy.createFunction are deprecated, use new Proxy instead
+1468545110398	addons.repository	DEBUG	No addons.json found.
+1468545110399	DeferredSave.addons.json	DEBUG	Save changes
+1468545110400	DeferredSave.addons.json	DEBUG	Starting timer
+1468545110436	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1468545110437	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1468545110437	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1468545110439	DeferredSave.extensions.json	DEBUG	Write succeeded
+1468545110439	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1468545110457	DeferredSave.addons.json	DEBUG	Starting write
+1468545110477	DeferredSave.addons.json	DEBUG	Write succeeded
+JavaScript error: chrome://fxdriver/content/server.js, line 61: uncaught exception: [object Object]
+JavaScript error: chrome://fxdriver/content/server.js, line 61: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	... 21 more
+
+org.openqa.selenium.WebDriverException: Element is not clickable at point (970.5, 9.5). Other element would receive the click: <div style="display: block;" id="wb_banner"></div>
+Command duration or timeout: 101 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'CEB-DT9875', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4fa8008f-6045-4ac0-9acb-d5b339215496
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at automationFramework.SimpleTest.test(SimpleTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+
+
+
+
+
+
+
+
+
+
